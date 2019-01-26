@@ -6,13 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4
 {
-    class Program
+    class Countryside
     {
-        static void Main(string[] args)
-        {
-            int i;
-            i = 50;
+    }
+    class Village
+    {
+        Village PreviousVillage;
+        Village NextVillage;
+        String Villagename;
+        bool 
 
-        }
     }
 }
