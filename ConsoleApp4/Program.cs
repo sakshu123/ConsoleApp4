@@ -23,9 +23,12 @@ namespace ConsoleApp4
         public void InitializeMap()
         {
             Alst = new Village();
+            Alst.VillageName = "Alst"; 
             Maeland = new Village();
+            Maeland.VillageName = " Maeland";
             Maeland.isAstrildeHere = true;
             Schenig = new Village();
+            Schenig.VillageName = "Schenig";
 
             Alst.NextVillage = Maeland;
             Maeland.NextVillage = Schenig;
@@ -35,6 +38,15 @@ namespace ConsoleApp4
         public void WalkAround()
         {
             Village InitialVillage = this.Maeland;
+           
+            Village CurrentVillage = this.Maeland;
+            if {
+                Console.WriteLine("Hogi found Astrilde!!! Celebrations! XOXO")
+            }
+            Village NextVillage;
+            NextVillage = CurrentVillage.NextVillage;
+
+
         }
     }
 
