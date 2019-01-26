@@ -10,6 +10,8 @@ namespace ConsoleApp4
     {
         static void Main(string[] args)
         {
+            int i;
+            i = 50;
         }
     }
 }
